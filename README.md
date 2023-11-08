@@ -18,11 +18,7 @@ The LDA doesn't work on this type of dataset as shown in this figure:
 ![Alt text](QDA_dataset.png)
 ![Alt text](image.png)
 
-So we use the QDA (Quadratic discriminant ananlysis) to solve this classification problem: We calculate the log posteriori densities given by :
-
-\begin{equation*}
-\textrm{ln} \ p(\mathcal{C}_{k}|\mathbf{x}) = g_{k}(\mathbf{x}) = -\frac{1}{2} (\mathbf{x}_{n} - \boldsymbol{\mu}_{k})^{\top}\boldsymbol{\Sigma_{k}^{-1}} (\mathbf{x}_{n} - \boldsymbol{\mu}_{k}) - \frac{1}{2} \log \det (\boldsymbol{\Sigma}_{k}) + \textrm{cst} 
-\end{equation*}
+So we use the QDA (Quadratic discriminant ananlysis) to solve this classification problem by calculating the log posteriori densities.
 
 We obtain this result:
 ![Alt text](QDA.png)
